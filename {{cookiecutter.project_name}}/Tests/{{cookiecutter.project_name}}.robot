@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation   Tests for {{cookiecutter.project_name}}
-Resource            ../resource/common.robot
+Resource            ../Resource/common.robot
 Suite Setup         Open Browser To Front Page
 Test Setup          Go To Front Page
 Test Teardown       Delete All Cookies
