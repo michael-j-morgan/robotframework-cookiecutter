@@ -4,7 +4,7 @@ Library           SeleniumLibrary
 
 *** Variables ***
 ${SERVER}         google.com
-${BROWSER}        Firefox
+${BROWSER}        Chrome        
 ${TIMEOUT}        10
 ${BASE_URL}       http://${SERVER}/
 ${APP_TITLE}      Google
